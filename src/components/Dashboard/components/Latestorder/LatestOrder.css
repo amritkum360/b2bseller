@@ -1,0 +1,53 @@
+.latest-order-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 0px;
+    background-color: #ffbd5994;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    height: 450px;
+  }
+  
+  .latest-order-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .order-table th {
+    background-color: #FFCDCD;
+    color: #000;
+  }
+  
+  .order-table td {
+    background-color: #fff;
+    border: 1px solid #FFCDCD;
+  }
+  
+  .more-orders {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .more-orders span {
+    cursor: pointer;
+    color: #41B8D5;
+  }
+  
+  .see-full-orders {
+    font-weight: bold;
+  }
+  
